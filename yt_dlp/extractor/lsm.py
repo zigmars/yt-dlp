@@ -256,6 +256,19 @@ class LSMReplayIE(InfoExtractor):
     }, {
         'url': 'https://replay.lsm.lv/ru/statja/ltv/311130/4-studija-zolitudes-tragedija-un-incupes-stacija',
         'only_matching': True,
+    }, {
+        'url': 'https://replay.lsm.lv/lv/skaties/ieraksts/ltv/344156/garainis-ivars-seleckis-arvids-strauja',
+        # 'md5': '64f72a360ca530d5ed89c77646c9eee5',
+        'info_dict': {
+            'id': '65d_g24-1800-007',
+            'ext': 'mkv',
+            # 'timestamp': 1700586300,
+            # 'description': 'md5:0f1b14798cc39e1ae578bd0eb268f759',
+            # 'duration': 1442,
+            # 'upload_date': '20231121',
+            'title': 'Garainis. Ivars Seleckis ⧸ Arvīds Strauja',
+            # 'thumbnail': 'https://ltv.lsm.lv/storage/media/8/7/large/5/1f9604e1.jpg',
+        },
     }]
 
     def _fix_nuxt_data(self, webpage):
